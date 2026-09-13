@@ -1,0 +1,13 @@
+*.local
+.env
+.env.*
+.npmrc
+*.tgz
+.cache/
+node_modules/
+ALLOWLIST_SUBMISSION.local.md
+.secrets/
+credentials*
+*.pem
+*.key
+*.log

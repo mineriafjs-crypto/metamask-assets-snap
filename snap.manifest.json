@@ -1,0 +1,29 @@
+{
+  "version": "1.0.3",
+  "description": "Precios, logos y sparklines SELEMAN Chain (73571) en MetaMask Tokens (SIP-29).",
+  "proposedName": "SELEMAN Assets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mineriafjs-crypto/metamask-assets-snap.git"
+  },
+  "source": {
+    "shasum": "ThmPwfyU8tA1EVcoPa+R1HJts7gf1DMlUnWfEGD3PQs=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "@oman2026/metamask-assets-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:network-access": {},
+    "endowment:assets": {
+      "scopes": ["eip155:73571"]
+    },
+    "snap_getPreferences": {}
+  },
+  "platformVersion": "12.0.0",
+  "manifestVersion": "0.1"
+}

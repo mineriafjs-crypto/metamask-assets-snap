@@ -1,0 +1,15 @@
+node_modules/
+.npmrc
+*.tgz
+.cache/
+.env
+.env.*
+*.local
+ALLOWLIST_SUBMISSION.local.md
+.DS_Store
+Thumbs.db
+*.log
+.secrets/
+credentials*
+*.pem
+*.key
