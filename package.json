@@ -1,6 +1,6 @@
 {
   "name": "@oman2026/metamask-assets-snap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SELEMAN Chain (eip155:73571) asset prices and metadata for MetaMask Tokens via SIP-29",
   "repository": {
     "type": "git",
@@ -45,5 +45,11 @@
   "author": "SELEMAN",
   "engines": {
     "node": ">=18"
+  },
+  "overrides": {
+    "proxy-addr": "^2.0.8",
+    "brace-expansion@1": "^1.1.21",
+    "uuid": "^11.1.1",
+    "bn.js@5": "^5.2.3"
   }
 }

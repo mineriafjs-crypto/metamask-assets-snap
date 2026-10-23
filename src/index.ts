@@ -6,7 +6,7 @@ import type {
 } from "@metamask/snaps-sdk";
 
 /** Backend público SELEMAN (SIP-29 endowment:assets). */
-const API_BASE = "https://seleman.monarcaproject.com";
+const API_BASE = "https://explorer.primevertexlabs.com.mx";
 
 async function postJson<T>(path: string, body: unknown): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {

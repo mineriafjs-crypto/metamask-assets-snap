@@ -8,7 +8,7 @@ series** for chain `eip155:73571` to MetaMask Tokens.
 | Field | Value |
 | --- | --- |
 | Package | [`@oman2026/metamask-assets-snap`](https://www.npmjs.com/package/@oman2026/metamask-assets-snap) |
-| Version | `1.0.3` |
+| Version | `1.0.4` |
 | Snap ID | `npm:@oman2026/metamask-assets-snap` |
 | Manifest shasum | `ThmPwfyU8tA1EVcoPa+R1HJts7gf1DMlUnWfEGD3PQs=` |
 | Icon | Official SELEMAN blue triangle (`images/icon.svg`, same as `/icons/smn.png`) |
@@ -25,8 +25,8 @@ No key-management permissions (`snap_getBip32Entropy`, `snap_manageAccounts`, et
 
 ## Public product URLs
 
-- Brand / product: https://seleman.monarcaproject.com
-- Snap page: https://seleman.monarcaproject.com/metamask
+- Brand / product: https://explorer.primevertexlabs.com.mx
+- Snap page: https://explorer.primevertexlabs.com.mx/metamask
 
 The Snap calls only these public SIP-29 backend routes (no API keys in the client):
 
@@ -35,7 +35,7 @@ The Snap calls only these public SIP-29 backend routes (no API keys in the clien
 - `POST /api/v1/metamask-snap/assets/historical`
 - `POST /api/v1/metamask-snap/assets/market-data`
 
-Base host: `https://seleman.monarcaproject.com`
+Base host: `https://explorer.primevertexlabs.com.mx`
 
 ## Build from this repository
 
